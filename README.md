@@ -5,7 +5,7 @@ If the landing date slips, which lunar landing sites still have power and a dire
 Built for the NASA Space Apps Challenge 2026, challenge "Lunar Landing Site Navigator". The name comes from the lunar south pole, where the Sun and the Earth both skim the skyline.
 
 - Live: https://atamol.github.io/Skimline/
-- Demo slides: https://atamol.github.io/Skimline/demo.pdf
+- Demo slides: https://atamol.github.io/Skimline/demo.pdf (Japanese: https://atamol.github.io/Skimline/demo-ja.pdf)
 
 ![Slip chart, countdowns and two sky panoramas](docs/screenshot.jpg)
 
@@ -70,7 +70,7 @@ The files under `public/data` are checked in, so this is only needed to change t
 
 ## Slides
 
-The decks are in `slides/` (Slidev): `slides.md` in Japanese and `slides.en.md` in English. After `npm install` there, `npm run dev` opens the Japanese deck, `npm run export` writes `slides-ja.pdf` and `npm run export:en` rewrites `public/demo.pdf`.
+The decks are in `slides/` (Slidev): `slides.md` in Japanese and `slides.en.md` in English. After `npm install` there, `npm run dev` opens the Japanese deck, `npm run export` rewrites `public/demo-ja.pdf` and `npm run export:en` rewrites `public/demo.pdf`.
 
 ## Limits
 

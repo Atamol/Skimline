@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "export": "slidev export --output slides-ja.pdf",
+    "export": "slidev export --output ../public/demo-ja.pdf",
     "export:en": "slidev export slides.en.md --output ../public/demo.pdf"
   },
   "dependencies": {
