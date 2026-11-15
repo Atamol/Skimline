@@ -67,7 +67,7 @@ The files under `public/data` are checked in, so this is only needed to change t
 
 ## Slides
 
-The decks are in `slides/` (Slidev): `slides.md` in Japanese and `slides.en.md` in English. After `npm install` there, `npm run dev` opens the Japanese deck, `npm run export` rewrites `public/demo.pdf` from it and `npm run export:en` writes `slides-en.pdf`.
+The decks are in `slides/` (Slidev): `slides.md` in Japanese and `slides.en.md` in English. After `npm install` there, `npm run dev` opens the Japanese deck, `npm run export` writes `slides-ja.pdf` and `npm run export:en` rewrites `public/demo.pdf`.
 
 ## Limits
 

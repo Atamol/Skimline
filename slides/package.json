@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "export": "slidev export --output ../public/demo.pdf",
-    "export:en": "slidev export slides.en.md --output slides-en.pdf"
+    "export": "slidev export --output slides-ja.pdf",
+    "export:en": "slidev export slides.en.md --output ../public/demo.pdf"
   },
   "dependencies": {
     "@slidev/cli": "53.0.0",
