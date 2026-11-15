@@ -1,0 +1,128 @@
+[
+ {
+  "id": "pgda-site01",
+  "name": "Connecting ridge (PGDA Site01)",
+  "group": "South pole",
+  "lat": -89.439,
+  "lon": 222.9036,
+  "agency": "NASA GSFC",
+  "source": "https://pgda.gsfc.nasa.gov/products/78",
+  "note": "Highest LOLA point (1959 m) within 3 km of the center of the PGDA Site01 elevation model"
+ },
+ {
+  "id": "pgda-site04",
+  "name": "Shackleton rim (PGDA Site04)",
+  "group": "South pole",
+  "lat": -89.7813,
+  "lon": 204.7872,
+  "agency": "NASA GSFC",
+  "source": "https://pgda.gsfc.nasa.gov/products/78",
+  "note": "Highest LOLA point (1737 m) within 3 km of the center of the PGDA Site04 elevation model"
+ },
+ {
+  "id": "pgda-site07",
+  "name": "Peak near Shackleton (PGDA Site07)",
+  "group": "South pole",
+  "lat": -88.8083,
+  "lon": 123.7165,
+  "agency": "NASA GSFC",
+  "source": "https://pgda.gsfc.nasa.gov/products/78",
+  "note": "Highest LOLA point (1648 m) within 3 km of the center of the PGDA Site07 elevation model"
+ },
+ {
+  "id": "im-2-athena",
+  "name": "IM-2 Athena, Mons Mouton",
+  "group": "South pole",
+  "lat": -84.7754,
+  "lon": 29.1264,
+  "agency": "Intuitive Machines / NASA CLPS",
+  "source": "https://pgda.gsfc.nasa.gov/products/101",
+  "note": "Landed 2025-03-06 on Mons Mouton. Coordinates from the PGDA landing site list"
+ },
+ {
+  "id": "slim",
+  "name": "SLIM",
+  "group": "Past landings",
+  "lat": -13.31549,
+  "lon": 25.24889,
+  "agency": "JAXA",
+  "source": "https://www.isas.jaxa.jp/en/outreach/announcements/files/SLIM-pressconf-20240125.pdf",
+  "note": "Coordinates of the JAXA target point. SLIM came down about 55 m east of it",
+  "landed": "2024-01-19T15:20:00Z"
+ },
+ {
+  "id": "chandrayaan-3",
+  "name": "Chandrayaan-3",
+  "group": "Past landings",
+  "lat": -69.3735,
+  "lon": 32.3199,
+  "agency": "ISRO",
+  "source": "https://pgda.gsfc.nasa.gov/products/101",
+  "note": "Landed 2023-08-23. Coordinates from the PGDA landing site list"
+ },
+ {
+  "id": "im-1-odysseus",
+  "name": "IM-1 Odysseus",
+  "group": "Past landings",
+  "lat": -80.1277,
+  "lon": 1.4357,
+  "agency": "Intuitive Machines / NASA CLPS",
+  "source": "https://pgda.gsfc.nasa.gov/products/101",
+  "note": "Landed near Malapert A. Coordinates from the PGDA landing site list",
+  "landed": "2024-02-22T23:24:00Z"
+ },
+ {
+  "id": "blue-ghost-1",
+  "name": "Blue Ghost Mission 1",
+  "group": "Past landings",
+  "lat": 18.56,
+  "lon": 61.81,
+  "agency": "Firefly Aerospace / NASA CLPS",
+  "source": "https://lroc.im-ldi.com/images/1400",
+  "note": "Center of the landing region in Mare Crisium given by LROC",
+  "landed": "2025-03-02T08:34:00Z"
+ },
+ {
+  "id": "apollo-11",
+  "name": "Apollo 11",
+  "group": "Past landings",
+  "lat": 0.6742,
+  "lon": 23.4731,
+  "agency": "NASA",
+  "source": "https://lroc.im-ldi.com/posts/1122",
+  "note": "Coordinates from LROC",
+  "landed": "1969-07-20T20:17:39Z"
+ },
+ {
+  "id": "apollo-17",
+  "name": "Apollo 17",
+  "group": "Past landings",
+  "lat": 20.18809,
+  "lon": 30.77475,
+  "agency": "NASA",
+  "source": "https://apollojournals.org/alsj/a17/a17ov.html",
+  "note": "Coordinates from the Apollo Lunar Surface Journal",
+  "landed": "1972-12-11T19:54:58Z"
+ },
+ {
+  "id": "change-4",
+  "name": "Chang'e 4 (far side)",
+  "group": "Past landings",
+  "lat": -45.4561,
+  "lon": 177.5885,
+  "agency": "CNSA",
+  "source": "https://ntrs.nasa.gov/api/citations/20250002845/downloads/M2M-30044%20Lunar%20Surface%20Data%20Book%20Baseline_Final.pdf",
+  "note": "Von Karman crater. Earth is never in view, so the mission relies on a relay satellite",
+  "landed": "2019-01-03T02:26:00Z"
+ },
+ {
+  "id": "change-6",
+  "name": "Chang'e 6 (far side)",
+  "group": "Past landings",
+  "lat": -41.6385,
+  "lon": 206.0148,
+  "agency": "CNSA",
+  "source": "https://ntrs.nasa.gov/api/citations/20250002845/downloads/M2M-30044%20Lunar%20Surface%20Data%20Book%20Baseline_Final.pdf",
+  "note": "Apollo basin on the far side. Longitude converted from 153.9852 W"
+ }
+]

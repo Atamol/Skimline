@@ -1,0 +1,89 @@
+{
+ "generated": "2026-11-14T03:05:28.562Z",
+ "geometry": {
+  "samples": 264,
+  "sites": 12,
+  "firstYear": 2023,
+  "lastYear": 2034,
+  "worstElDeg": 0.0057,
+  "worstAzDeg": 0.0059,
+  "rmsElDeg": 0.0013,
+  "rmsAzDeg": 0.0025
+ },
+ "missions": [
+  {
+   "id": "slim",
+   "title": "SLIM (JAXA), January 2024",
+   "reported": "Landed 2024-01-19 15:20 UTC with the solar cells facing west and the Sun in the east. Powered down at 17:57 UTC. JAXA expected power to return as the Sun moved west. Operations resumed on January 28.",
+   "computed": "Sun at azimuth 82° (east), elevation 37° at landing, so a west-facing array gets nothing. Light first reaches it on 2024-01-23 22:20 UTC, it passes half output on 2024-01-26 09:33 UTC, and it is at 83% on January 28 12:00 UTC.",
+   "verdict": "The power window opens in the days before operations resumed. The real attitude of the lander was more complex than a vertical west-facing plate, so this checks the geometry, not the exact date.",
+   "source": "https://global.jaxa.jp/press/2024/01/20240125-1_e.html"
+  },
+  {
+   "id": "blue-ghost",
+   "title": "Blue Ghost Mission 1 (Firefly, NASA CLPS), March 2025",
+   "reported": "Landed 2025-03-02 08:34 UTC. Firefly reports 346 hours of daylight operations, ending about 5 hours into the lunar night.",
+   "computed": "Sun's center reaches the horizon 347.7 h after landing, and the last 5% of the disk is gone at 348.8 h.",
+   "verdict": "Within 2 to 3 hours of the reported daylight, on a smooth sphere without local terrain.",
+   "source": "https://fireflyspace.com/missions/blue-ghost-mission-1/"
+  },
+  {
+   "id": "change-4",
+   "title": "Chang'e 4 (CNSA), lunar far side",
+   "reported": "The far side never faces Earth, so the mission communicates through the Queqiao relay satellite.",
+   "computed": "Over four years the Earth's center never gets higher than -37.1° at the landing site.",
+   "verdict": "No direct-to-Earth window at any date, as expected.",
+   "source": "https://www.planetary.org/articles/0519-change-4-relay-satellite"
+  }
+ ],
+ "terrain": [
+  {
+   "id": "pgda-site01",
+   "name": "Connecting ridge (PGDA Site01)",
+   "lat": -89.439,
+   "lon": 222.9036,
+   "groundTilesM": 1959,
+   "ground5mM": 1958,
+   "meanAbsDeg": 0.162,
+   "rmsDeg": 0.236,
+   "maxAbsDeg": 0.71,
+   "sunTilesPct": 87.9,
+   "sun5mPct": 85,
+   "earthTilesPct": 51.1,
+   "earth5mPct": 51.1,
+   "sun2024to2026At1mPct": 80.1
+  },
+  {
+   "id": "pgda-site04",
+   "name": "Shackleton rim (PGDA Site04)",
+   "lat": -89.7813,
+   "lon": 204.7872,
+   "groundTilesM": 1737,
+   "ground5mM": 1738,
+   "meanAbsDeg": 0.069,
+   "rmsDeg": 0.151,
+   "maxAbsDeg": 0.61,
+   "sunTilesPct": 82,
+   "sun5mPct": 80.9,
+   "earthTilesPct": 49.6,
+   "earth5mPct": 49.6,
+   "sun2024to2026At1mPct": 76.3
+  },
+  {
+   "id": "pgda-site07",
+   "name": "Peak near Shackleton (PGDA Site07)",
+   "lat": -88.8083,
+   "lon": 123.7165,
+   "groundTilesM": 1648,
+   "ground5mM": 1649,
+   "meanAbsDeg": 0.076,
+   "rmsDeg": 0.121,
+   "maxAbsDeg": 0.37,
+   "sunTilesPct": 84.9,
+   "sun5mPct": 84.7,
+   "earthTilesPct": 52.9,
+   "earth5mPct": 52.9,
+   "sun2024to2026At1mPct": 80.3
+  }
+ ]
+}

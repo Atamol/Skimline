@@ -1,0 +1,17 @@
+.slidev-layout h2 {
+  border-bottom: 2px solid #2c3550;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.7em;
+}
+
+.slidev-layout img {
+  border-radius: 6px;
+}
+
+.slidev-layout table {
+  font-size: 0.8em;
+}
+
+.sun { color: #ffcc4d; }
+.earth { color: #4da3ff; }
+.go { color: #33c27f; }
