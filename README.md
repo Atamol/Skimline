@@ -4,6 +4,9 @@ If the landing date slips, which lunar landing sites still have power and a dire
 
 Built for the NASA Space Apps Challenge 2026, challenge "Lunar Landing Site Navigator". The name comes from the lunar south pole, where the Sun and the Earth both skim the skyline.
 
+- Live: https://atamol.github.io/Skimline/
+- Demo slides: https://atamol.github.io/Skimline/demo.pdf
+
 ![Slip chart, countdowns and two sky panoramas](docs/screenshot.jpg)
 
 ## What it does

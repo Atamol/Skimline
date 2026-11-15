@@ -15,3 +15,9 @@
 .sun { color: #ffcc4d; }
 .earth { color: #4da3ff; }
 .go { color: #33c27f; }
+
+.slidev-layout ul,
+.slidev-layout .mermaid {
+  width: fit-content;
+  margin-inline: auto;
+}
