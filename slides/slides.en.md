@@ -9,7 +9,7 @@ layout: cover
 
 If the landing date slips, which sites still work?
 
-<div class="abs-bl m-10 text-sm opacity-70">NASA Space Apps Challenge 2026 · Lunar Landing Site Navigator · Atamol</div>
+<div class="abs-bl m-10 text-sm opacity-70">NASA Space Apps Challenge 2026 · Lunar Landing Site Navigator<br>Team Project Ultelier · Atamol</div>
 
 ---
 

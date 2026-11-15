@@ -11,7 +11,7 @@ layout: cover
 
 着陸日がズレても使える地点はどこか
 
-<div class="abs-bl m-10 text-sm opacity-70">NASA Space Apps Challenge 2026 · Lunar Landing Site Navigator</div>
+<div class="abs-bl m-10 text-sm opacity-70">NASA Space Apps Challenge 2026 · Lunar Landing Site Navigator<br>Project Ultelier · Atamol</div>
 
 ---
 
