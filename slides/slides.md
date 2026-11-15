@@ -21,11 +21,11 @@ layout: cover
 flowchart LR
   A[着陸日がズレる] --> B[電力はあるか<br>太陽が見えるか]
   A --> C[通信できるか<br>地球が見えるか]
-  B --> D[1地点，1日付<br>ずつ調べ直し]
+  B --> D[複数の道具で<br>調べ直し]
   C --> D
 ```
 
-- Horizons，Quickmap，Moon Trekで調べられるのは1件ずつ
+- Horizons，Quickmap，Moon Trekを行き来する必要があり，素早い比較に向かない
 - 日程が動いたら，候補をまとめて見比べたい
 
 ---

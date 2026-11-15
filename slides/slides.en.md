@@ -19,11 +19,11 @@ If the landing date slips, which sites still work?
 flowchart LR
   A[Landing date slips] --> B[Is there power?<br>Is the Sun in view?]
   A --> C[Can we talk to Earth?<br>Is the Earth in view?]
-  B --> D[Recheck one site and<br>one date at a time]
+  B --> D[Recheck across<br>several tools]
   C --> D
 ```
 
-- Horizons, Quickmap and Moon Trek answer one case at a time
+- Horizons, Quickmap and Moon Trek hold the data, but each case takes several tools, so quick comparison is hard
 - When the schedule moves, planners need to compare the alternatives at once
 
 ---
