@@ -9,17 +9,17 @@ layout: cover
 
 # Skimline
 
-着陸日がずれても使える地点はどこか
+着陸日がズレても使える地点はどこか
 
 <div class="abs-bl m-10 text-sm opacity-70">NASA Space Apps Challenge 2026 · Lunar Landing Site Navigator</div>
 
 ---
 
-## 課題: 着陸日はずれる
+## 課題: 着陸日はズレる
 
 ```mermaid {theme: 'dark', scale: 0.95}
 flowchart LR
-  A[着陸日がずれる] --> B[電力はあるか<br>太陽が見えるか]
+  A[着陸日がズレる] --> B[電力はあるか<br>太陽が見えるか]
   A --> C[通信できるか<br>地球が見えるか]
   B --> D[1地点，1日付<br>ずつ調べ直し]
   C --> D
@@ -30,16 +30,16 @@ flowchart LR
 
 ---
 
-## 理論: 決め手は稜線
+## 原理: 決め手は稜線
 
 - 電力も通信も，天体が**稜線より上**にあるかで決まる
-- 南極では<span class="sun">太陽</span>も<span class="earth">地球</span>も地平線すれすれで，数日，数kmずれるだけで結果が変わる
+- 南極では<span class="sun">太陽</span>も<span class="earth">地球</span>も地平線すれすれで，数日，数kmズレるだけで結果が変わる
 
 <img src="/sky.png" class="mt-6 mx-auto w-190">
 
 ---
 
-## 理論: 3段で合否を出す
+## 方法: 3段で合否を出す
 
 ```mermaid {theme: 'dark', scale: 0.85}
 flowchart LR
